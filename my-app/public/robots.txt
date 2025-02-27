@@ -1,0 +1,6 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# XML Sitemap
+Sitemap: https://gamejam.dogxi.me/sitemap.xml
