@@ -17,5 +17,24 @@
     "issueComments": 0,
     "participantLimit": "noLimit",
     "participantLimitDetails": ""
+  },
+  {
+    "id": "issue-3",
+    "title": "开拓芯 大学生游戏创作大赛",
+    "description": "开拓芯大学生游戏创作大赛，由开拓芯主办，旨在为热爱游戏开发并展现出杰出创新精神的大学生提供展示独特想法的平台，让每一个灵感都能绽放更强烈的光芒。",
+    "startDate": "2025-02-14T00:00",
+    "endDate": "2025-05-09T00:00",
+    "organizer": "开拓芯",
+    "imageUrl": "https://s21.ax1x.com/2025/02/28/pE3LknO.jpg",
+    "theme": "不限主题",
+    "information": "开拓芯大学生游戏创作大赛\n由开拓芯主办，旨在为热爱游戏开发并展现出杰出创新精神的\n大学生提供展示独特想法的平台，\n让每一个灵感都能绽放更强烈的光芒。",
+    "website": "https://www.coreblazer.com/cgf/2025",
+    "issueNumber": 3,
+    "issueUrl": "https://github.com/dogyyds/gamejam/issues/3",
+    "issueCreator": "dogyyds",
+    "issueCreatedAt": "2025-02-27T17:14:06Z",
+    "issueComments": 0,
+    "participantLimit": "studentsOnly",
+    "participantLimitDetails": "高校在校学生或者应届毕业生"
   }
 ]
