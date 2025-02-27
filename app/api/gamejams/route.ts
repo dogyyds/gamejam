@@ -32,16 +32,6 @@ export async function GET(req: NextRequest) {
         console.error("获取GameJam数据失败:", error);
 
         // 如果出错，回退到mock数据
-        const { mockGameJams } = await import("@/data/mock-data");
-
-        const ongoing = mockGameJams.filter(jam => getGameJamStatus(jam) === "ongoing");
-        const upcoming = mockGameJams.filter(jam => getGameJamStatus(jam) === "upcoming");
-        const completed = mockGameJams.filter(jam => getGameJamStatus(jam) === "completed");
-
-        return NextResponse.json({
-            gamejams: mockGameJams,
-            categorized: { ongoing, upcoming, completed },
-            isUsingMockData: true
-        });
+        return NextResponse.json({ gamejams: [] });
     }
 }
