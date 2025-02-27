@@ -1,1 +1,21 @@
-[]
+[
+  {
+    "id": "issue-2",
+    "title": "Ludum Dare 57",
+    "description": "Ludum Dare是一个从2002年4月就开始举办的开发竞赛，它以推进个人游戏开发为目的，参与人数众多",
+    "startDate": "2025-04-04T09:00",
+    "endDate": "2025-04-06T09:00",
+    "organizer": "Ludum Dare",
+    "imageUrl": "https://s21.ax1x.com/2025/02/28/pE3qj74.jpg",
+    "theme": "暂无",
+    "information": "Ludum Dare是一个经常性以推进个人游戏开发为目的的开发竞赛。参与者需要在48小时内针对所设定的主题创作游戏。Ludum Dare是Geoff Howland一手建立的，第一次举办在2002年4月。\n\n参与者来自世界各地，行业各异。学生、爱好者、专业开发者（大型游戏公司），以及独立游戏开发者。",
+    "website": "https://ldjam.com/",
+    "issueNumber": 2,
+    "issueUrl": "https://github.com/dogyyds/gamejam/issues/2",
+    "issueCreator": "dogyyds",
+    "issueCreatedAt": "2025-02-27T16:41:52Z",
+    "issueComments": 0,
+    "participantLimit": "noLimit",
+    "participantLimitDetails": ""
+  }
+]
