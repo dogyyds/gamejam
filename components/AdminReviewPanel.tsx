@@ -175,6 +175,7 @@ export default function AdminReviewPanel() {
                           <img
                             src={submission.submissionData.imageUrl}
                             alt={submission.submissionData.title}
+                            referrerPolicy="no-referrer"
                             className="object-cover w-full h-full"
                             onError={(e) => {
                               e.currentTarget.src =

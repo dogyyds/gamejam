@@ -89,6 +89,7 @@ export default function GameJamCard({
               src={gamejam.imageUrl}
               alt={gamejam.title}
               className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+              referrerPolicy="no-referrer"
               onError={() => setImgError(true)}
               loading="lazy"
             />
