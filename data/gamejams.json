@@ -74,5 +74,24 @@
     "issueComments": 0,
     "participantLimit": "studentsOnly",
     "participantLimitDetails": "全球高校生"
+  },
+  {
+    "id": "issue-6",
+    "title": "034挑战",
+    "description": "只能使用最简单的图形，如何创作出优雅的游戏？",
+    "startDate": "2025-03-21T18:00",
+    "endDate": "2025-03-23T18:00",
+    "organizer": "卢德工作室",
+    "imageUrl": "https://image.gcores.com/75a25fe70b020530cc1404fa899f8b28-3840-1000.png",
+    "theme": "",
+    "information": "【比赛公告】\n欢迎各位来到〇三四组队群！\n\n🎮 比赛形式\n\n1. 全程线上组队参赛，队长需在比赛截止时提交最终组员名单。\n2. 自由组队，单队人数不超过3人。\n\n📜 比赛规则\n1. 主题公布\n3月21日18:00公布主题，请扣题创作。\n\n2. 图形限制\n仅可使用肉眼可辨的纯色圆形、三角形、矩形作为游戏实例\n3D游戏可用纯色球体、圆锥、棱锥、长/正方体\n以上图形在下文描述为【基本图形】\n\n3. 文字限制\n除【游戏标题】和【成员名单】两处外，游戏内其余地方禁止使用任何文字（包括但不限于数字、标点符号、象形文字）\n\n4. 其他限制\n① 游戏至少包含1次玩家交互操作\n② 工具与平台不限，但作品需确保至少能在PC端正常运行\n③ 允许使用AI\n④ 严禁涉及暴力、色情、反社会等违规内容\n\n5. 细则说明\n① 不可以加边框\n② 不可以使用直线，但是可以用相对细长矩形代替\n③ 可以使用特效，但可视内容必须是由基本图形组成的\n④ 【在创作过程中】，不可以使用纯色的基础图案以外的实例，并且不可以试图以组合、形变的方式来得到其他图形。但是【在玩家的游戏过程中】没有这个限制，玩家喜欢怎么组合、形变，怎么折腾都行，制定游戏规则即可\n⑤ 原则上，音频不作限制，但基于赛事初衷，还是希望各位选手尽量不要过度依赖语言类音频来传递信息\n⑥ 颜色无限制\n\n报名处↓\nhttps://ludostudio.feishu.cn/share/base/form/shrcnbpcnLj4ni41H3a7BNnnEId\n\n组队看板↓\nhttps://ludostudio.feishu.cn/sheets/FbhFsStWlh2gyZt6PRRcjhqhn6b",
+    "website": "https://qm.qq.com/q/IS1zv2E242",
+    "issueNumber": 6,
+    "issueUrl": "https://github.com/dogyyds/gamejam/issues/6",
+    "issueCreator": "TowerTTT",
+    "issueCreatedAt": "2025-03-10T06:28:00Z",
+    "issueComments": 1,
+    "participantLimit": "noLimit",
+    "participantLimitDetails": ""
   }
 ]
