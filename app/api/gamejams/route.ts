@@ -1,11 +1,14 @@
 import { NextRequest, NextResponse } from "next/server";
 import { fetchGameJamData } from "@/lib/github";
-import { getGameJamStatus } from "@/data/gamejams";
+import { getGameJamStatus, test_gamejams } from "@/data/gamejams";
 
 export async function GET(req: NextRequest) {
     try {
         // 从GitHub获取数据
         const gamejams = await fetchGameJamData();
+
+        //开发测试数据 提交前记得切换
+        //const gamejams = test_gamejams;
 
         // 筛选和排序逻辑
         const statusParam = req.nextUrl.searchParams.get("status");

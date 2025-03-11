@@ -45,7 +45,7 @@
   bottom: -2px;
   left: -2px;
   z-index: -1;
-  background: linear-gradient(45deg, #3b82f6, #8b5cf6, #3b82f6);
+  background: linear-gradient(45deg, #689ff7, #bda1ff, #77a6f1);
   background-size: 200% 200%;
   animation: glow 3s linear infinite;
   opacity: 0;

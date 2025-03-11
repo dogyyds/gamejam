@@ -17,79 +17,8 @@ export function getGameJamStatus(gamejam: GameJam): GameJamStatus {
     }
 }
 
-/**
- * 计算GameJam的时间状态（即将开始还有X天、进行中还剩X天、已结束X天）
- */
-export function getTimeStatus(gamejam: GameJam): string {
-    const now = new Date();
-    const startDate = new Date(gamejam.startDate);
-    const endDate = new Date(gamejam.endDate);
-    const status = getGameJamStatus(gamejam);
-
-    const millisecondsPerDay = 1000 * 60 * 60 * 24;
-
-    if (status === "upcoming") {
-        const daysToStart = Math.ceil((startDate.getTime() - now.getTime()) / millisecondsPerDay);
-        return `还有 ${daysToStart} 天开始`;
-    } else if (status === "ongoing") {
-        const daysToEnd = Math.ceil((endDate.getTime() - now.getTime()) / millisecondsPerDay);
-        return `还剩 ${daysToEnd} 天`;
-    } else {
-        const daysSinceEnd = Math.ceil((now.getTime() - endDate.getTime()) / millisecondsPerDay);
-        return `已结束 ${daysSinceEnd} 天`;
-    }
-}
-
-/**
- * 格式化日期为易读形式
- */
-export function formatDate(dateString: string): string {
-    const date = new Date(dateString);
-    return date.toLocaleDateString("zh-CN", {
-        year: "numeric",
-        month: "long",
-        day: "numeric",
-        hour: "2-digit",
-        minute: "2-digit",
-    });
-}
-
-/**
- * 计算 GameJam 剩余时间（天数）
- */
-export function getGameJamRemainingDays(gamejam: GameJam): number | null {
-    const now = new Date();
-    const startDate = new Date(gamejam.startDate);
-    const endDate = new Date(gamejam.endDate);
-
-    // 如果已结束，返回 null
-    if (now > endDate) {
-        return null;
-    }
-
-    // 如果未开始，计算距离开始还有几天
-    if (now < startDate) {
-        const diffTime = startDate.getTime() - now.getTime();
-        return Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-    }
-
-    // 如果正在进行，计算距离结束还有几天
-    const diffTime = endDate.getTime() - now.getTime();
-    return Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-}
-
-/**
- * 计算 GameJam 持续时间（天数）
- */
-export function getGameJamDuration(gamejam: GameJam): number {
-    const startDate = new Date(gamejam.startDate);
-    const endDate = new Date(gamejam.endDate);
-    const diffTime = endDate.getTime() - startDate.getTime();
-    return Math.ceil(diffTime / (1000 * 60 * 60 * 24));
-}
-
 // 设置一些示例数据，修改为使用 information 字段
-export const gamejams: GameJam[] = [
+export const test_gamejams: GameJam[] = [
     {
         id: '1',
         title: '像素艺术大挑战',
@@ -192,14 +121,3 @@ export const gamejams: GameJam[] = [
         //tags: ["VR", "虚拟现实", "深海探索", "3D"],
     }
 ];
-
-/**
- * 按状态分组获取比赛
- */
-export const getGameJamsByStatus = () => {
-    const upcoming = gamejams.filter(jam => getGameJamStatus(jam) === 'upcoming');
-    const ongoing = gamejams.filter(jam => getGameJamStatus(jam) === 'ongoing');
-    const completed = gamejams.filter(jam => getGameJamStatus(jam) === 'completed');
-
-    return { upcoming, ongoing, completed };
-};
