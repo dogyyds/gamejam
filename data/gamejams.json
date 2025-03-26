@@ -93,5 +93,24 @@
     "issueComments": 1,
     "participantLimit": "noLimit",
     "participantLimitDetails": ""
+  },
+  {
+    "id": "issue-7",
+    "title": "BOOOM 2025 游戏创作挑战",
+    "description": "BOOOMJAM 游戏创作挑战 每年固定举办2次，限时开发3周、限定开发主题，最后会在线上/线下提供游戏展示的机会。",
+    "startDate": "2025-04-11T10:00",
+    "endDate": "2025-05-24T23:59",
+    "organizer": "BOOOM 暴造",
+    "imageUrl": "https://s21.ax1x.com/2025/03/26/pEDBCDg.jpg",
+    "theme": "待公布",
+    "information": "BOOOMJAM 游戏创作挑战（以下简称：B00OM）是由机核「暴造游戏创作分享社区」举办的游戏创作活动。\n\nBOOOMJAM 每年固定举办2次，限时开发3周、限定开发主题，最后会在线上/线下提供游戏展示的机会。\n\n在这里，作为创作者的你将收获与「伙伴」和「玩家」的紧密联结，也有机会触达更大的市场：与来自不同领域的同伴结成小队、取长补短，或单人成队、畅想自由，用3 周时间在限定主题下打开脑洞恣意创作；随后，我们将面向所有玩家举办“线上试玩游戏节”，也将在“核聚变”为优秀作品提供线下展示的机会，让开发者们得到广大玩家的真实反馈与热情激励！",
+    "website": "https://site.gcores.com/booom2025/",
+    "issueNumber": 7,
+    "issueUrl": "https://github.com/dogyyds/gamejam/issues/7",
+    "issueCreator": "dogyyds",
+    "issueCreatedAt": "2025-03-26T10:06:30Z",
+    "issueComments": 0,
+    "participantLimit": "noLimit",
+    "participantLimitDetails": ""
   }
 ]
