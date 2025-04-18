@@ -112,5 +112,24 @@
     "issueComments": 0,
     "participantLimit": "noLimit",
     "participantLimitDetails": ""
+  },
+  {
+    "id": "issue-8",
+    "title": "2025武汉国际设计大赛·腾讯游戏创作大赛",
+    "description": "2025武汉国际设计大赛·腾讯游戏创作大赛是由腾讯游戏学堂和武汉市洪山区人民政府主办的全球性游戏创作赛事。 旨在通过对参赛者游戏创意制作过程及作品产出的综合评价，发掘优秀游戏人才和创意作品，为游戏行业发展孕育新生力量。",
+    "startDate": "2025-04-14T16:30",
+    "endDate": "2025-07-15T23:59",
+    "organizer": "腾讯游戏学堂 / 武汉市洪山区人民政府",
+    "imageUrl": "https://xyp.qpic.cn/remix-gameinstitute/build/_assets/banner@2xn-WYXVEPEL.jpg",
+    "theme": "不限主题",
+    "information": "2025武汉国际设计大赛·腾讯游戏创作大赛是由腾讯游戏学堂和武汉市洪山区人民政府主办的全球性游戏创作赛事。本次活动由中共武汉市委宣传部、武汉市人才工作局、武汉市自然资源和城乡建设局、武汉市文化和旅游局、武汉市经济和信息化局联合指导，由腾讯游戏学堂、腾讯互娱社会价值探索中心和武汉广播电视台（集团）联合承办，由腾讯科技（武汉）有限公司、武汉数字创意与游戏产业协会和各在汉高校协助办理。\n\n本次大赛在2024赛事基础上全面升级，赛事奖金提升至323万元人民币，同时，所有赛事获奖作品均可直送参评武汉国际设计大赛“金黄鹤奖”，奖金50万元人民币。 旨在通过对参赛者游戏创意制作过程及作品产出的综合评价，发掘优秀游戏人才和创意作品，为游戏行业发展孕育新生力量。",
+    "website": "https://gameinstitute.qq.com/awards2025",
+    "issueNumber": 8,
+    "issueUrl": "https://github.com/dogyyds/gamejam/issues/8",
+    "issueCreator": "dogyyds",
+    "issueCreatedAt": "2025-04-18T05:35:07Z",
+    "issueComments": 0,
+    "participantLimit": "noLimit",
+    "participantLimitDetails": ""
   }
 ]
